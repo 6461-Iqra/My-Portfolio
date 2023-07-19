@@ -1,0 +1,314 @@
+/* Global Styles */
+html {
+        scroll-behavior: smooth;
+    
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bkimg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    color: #333;
+}
+
+a {
+    color: #b11bec;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header */
+
+header {
+    background-color: #333;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.name h2 {
+    margin: 0;
+    
+}
+
+.nav_bar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav_bar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav_bar a:hover {
+    background-color: #555;
+}
+
+
+/* Main Content */
+
+main {
+    padding: 20px;
+}
+
+.port {
+    margin: 25px 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.intro {
+    margin-top: 180px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.rsbutton {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #080808;
+    color: #fff;
+    border-style: double;
+    border-color: #5f2a12;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.rsbutton:hover {
+    background-color: #070707;
+}
+
+
+/* About Page */
+
+.abt_me {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.skills {
+    display: flex; /* Use Flexbox to display items in a row */
+    justify-content: center;
+    margin-top: 20px;
+}
+.fd_itm,
+.db_itm {
+    width: 45%;
+    padding: 20px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.fd_itm h3,
+.db_itm h3 {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.fd_itm p,
+.db_itm p {
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.fd_itm ul,
+.db_itm ul {
+    list-style-type: disc;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.fd_itm ul li,
+.db_itm ul li {
+    color: #c9a9a9;
+}
+
+
+/* Project */
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.PROJ_1,
+.PROJ_2 {
+    width: 45%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.proj_title {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.proj_btn {
+    background: transparent;
+    width: 150px;
+    color: #e02950;
+    border: 1px solid #e02950;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.proj_btn:hover {
+    background: #e02950;
+    color: #f0f0e6;
+}
+
+.proj_img_1 {
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px solid black;
+}
+
+
+/* Contact Me */
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(196, 7, 221);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+footer li {
+    margin: 5px 10px;
+}
+footer li img {
+    margin-top: 3%;
+        width: 20px; /* Adjust this value as per your desired image size */
+        height: 20px; /* Adjust this value to maintain aspect ratio */
+}
